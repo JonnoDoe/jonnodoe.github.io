@@ -478,19 +478,19 @@
   margin-right: 0;
 }
 .portfolio__item:nth-of-type(1) .portfolio__image {
-  background-image: url('../../../media/images/PNG/prj_nerds.png');
+  background-image: url('https://jonnodoe.github.io/assets/media/images/PNG/prj_nerds.png');
 }
 .portfolio__item:nth-of-type(2) .portfolio__image {
-  background-image: url('../../../media/images/PNG/prj_technomart.png');
+  background-image: url('https://jonnodoe.github.io/assets/media/images/PNG/prj_technomart.png');
 }
 .portfolio__item:nth-of-type(3) .portfolio__image {
-  background-image: url('../../../media/images/PNG/prj_sedona.png');
+  background-image: url('https://jonnodoe.github.io/assets/media/images/PNG/prj_sedona.png');
 }
 .portfolio__item:nth-of-type(4) .portfolio__image {
-  background-image: url('../../../media/images/PNG/prj_gllacy.png');
+  background-image: url('https://jonnodoe.github.io/assets/media/images/PNG/prj_gllacy.png');
 }
 .portfolio__item:nth-of-type(5) .portfolio__image {
-  background-image: url('../../../media/images/PNG/prj_person.png');
+  background-image: url('https://jonnodoe.github.io/assets/media/images/PNG/prj_person.png');
 }
 .portfolio__image {
   position: absolute;
