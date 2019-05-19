@@ -1,0 +1,97 @@
+//Import
+//------------------------------------------------------------------------------
+@import "../../dep/colors";
+
+//Code
+//------------------------------------------------------------------------------
+.header {
+  padding: 1.3157% 0 3.1586% 0;
+  background-color: @light-gray;
+
+  .header-top-section {
+    width: 100%;
+    margin-bottom: 3.409%;
+    line-height: 74px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    .main-navigation {
+      display: inline-block;
+      width: 50%;
+      margin-left: 17.1136%;
+
+      .navigation-list {
+        display: inline-block;
+        width: 100%;
+
+        .navigation-list-item {
+          display: inline-block;
+          margin-right: 9.2272%;
+          line-height: 25px;
+
+          &:last-of-type {
+            margin-right: 0;
+          }
+
+          .navigation-links {
+
+            &:hover {
+              color: @light-red;
+              cursor: pointer;
+            }
+
+            &:active {
+              color: @gray;
+            }
+          }
+        }
+      }
+    }
+
+    .cart {
+      display: inline-block;
+      width: 12%;
+
+      .cart-icon {
+        margin-right: 10.9051%;
+      }
+
+      .cart-text {
+        display: inline-block;
+        line-height: 20px;
+
+        &:hover {
+          color: @light-red;
+          cursor: pointer;
+        }
+
+        &:active {
+          color: @gray;
+        }
+      }
+    }
+  }
+
+  .slider {
+    width: 100%;
+
+    .slider-info {
+      width: 50%;
+      margin-top: 2.2727%;
+
+      .slider-caption {
+        margin-bottom: 5.5%;
+      }
+
+      .slider-text {
+        margin-bottom: 6.8181%;
+      }
+
+      .slider-button {
+        width: 54.5454%;
+      }
+    }
+  }
+}

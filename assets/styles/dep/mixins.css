@@ -1,0 +1,19 @@
+.transition {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+/*# sourceMappingURL=mixins.css.map */

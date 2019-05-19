@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Vladislav Belousov">
+		<meta name="description" content="[TH] Project #1">
+		<title>#1</title>
+		<link rel="icon" href="media/images/favicon.ico">
+		<link rel="stylesheet" href="styles/index.css">
+	</head>
+  <body>
+	  <header class="header">
+			<div class="layout-center">
+				<div class="header-top-section clear">
+					<img class="logotype to-left"
+							 src="media/images/logotype.png"
+							 alt="Nerd's"
+							 width="139" height="56">
+				
+					<nav class="main-navigation">
+						<ul class="navigation-list">
+							<li class="navigation-list-item">
+								<a class="navigation-links" href="index.html">Студия</a>
+							</li>
+							<li class="navigation-list-item">
+								<a class="navigation-links" href="#">Клиенты</a>
+							</li>
+							<li class="navigation-list-item active-section">
+								<a class="navigation-links" href="magazine.html">Магазин</a>
+							</li>
+							<li class="navigation-list-item">
+								<a class="navigation-links" href="#">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				
+					<div class="cart to-right">
+						<a href="#">
+							<img class="cart-icon"
+									 src="media/images/cart.png"
+									 alt="Cart"
+									 width="15" height="15">
+						</a>
+						<p class="cart-text">Корзина</p>
+					</div>
+				</div>
+				<h1 class="header-caption caption">
+					Добро пожаловать в магазин<br>
+					готовых макетов
+				</h1>
+			</div>
+		</header>
+	  
+	  <main class="layout-center clear">
+			
+			<section class="filter to-left">
+				<h2 class="filter-caption caption">Стоимость:</h2>
+				<div class="price-scroll"></div>
+				<form class="price" action="get">
+					<label>
+						От
+						<input class="price-designation" type="text" placeholder="0">
+					</label>
+					<label>
+						До
+						<input class="price-designation" type="text" placeholder="15000">
+					</label>
+				</form>
+				
+				<div class="grid-select">
+					<h2 class="filter-caption caption">Сетка:</h2>
+					<ul class="grid-list">
+						<li class="grid-list-item">
+							<span class="icon-circle"></span> Адаптивная
+						</li>
+						<li class="grid-list-item">
+							<span class="icon-circle"></span> Фиксированная
+						</li>
+						<li class="grid-list-item">
+							<span class="icon-circle"></span> Резиновая
+						</li>
+					</ul>
+				</div>
+				
+				<div class="features-select">
+					<h2 class="filter-caption caption">Особенности:</h2>
+					<ul class="features-list">
+						<li class="features-list-item">
+							<span class="icon-check-on"></span> Слайдер
+						</li>
+						<li class="features-list-item">
+							<span class="icon-check-off"></span> Блок преимуществ
+						</li>
+						<li class="features-list-item">
+							<span class="icon-check-on"></span> Новости
+						</li>
+						<li class="features-list-item">
+							<span class="icon-check-off"></span> Галерея
+						</li>
+						<li class="features-list-item">
+							<span class="icon-check-off"></span> Корзина
+						</li>
+					</ul>
+				</div>
+				
+				<button class="filter-button button">Показать</button>
+			</section>
+			
+			<section class="goods to-right">
+				<div class="sort">
+					Сортировать:
+					<ul class="sort-list">
+						<li class="sort-list-item">По цене</li>
+						<li class="sort-list-item">По типу</li>
+						<li class="sort-list-item">По функционалу</li>
+					</ul>
+					<span class="icon-down-dir"></span>
+					<span class="icon-up-dir"></span>
+				</div>
+				
+				<div class="product">
+					<img class="product-image"
+							 src="media/images/goods-1.png"
+							 alt="Aviator"
+					     width="240" height="240">
+					<div class="product-info">
+						<h3 class="product-info-caption caption">Aviator</h3>
+						<p class="product-info-text">
+							Одностраничный макет
+							с авторским дизайном
+						</p>
+						<a class="product-button button" href="#">8000 р.</a>
+					</div>
+				</div>
+				
+				<div class="product">
+					<img class="product-image"
+							 src="media/images/goods-2.png"
+							 alt="Sunset"
+					     width="240" height="240">
+					<div class="product-info">
+						<h3 class="product-info-caption caption">Sunset</h3>
+						<p class="product-info-text">
+							Интернет-магазин
+							с личным кабинетом
+						</p>
+						<a class="product-button button" href="#">10000 р.</a>
+					</div>
+				</div>
+				
+				<div class="product">
+					<img class="product-image"
+							 src="media/images/goods-3.png"
+							 alt="Forte"
+					     width="240" height="240">
+					<div class="product-info">
+						<h3 class="product-info-caption caption">Forte</h3>
+						<p class="product-info-text">
+							Отличный макет
+							для личного блока
+						</p>
+						<a class="product-button button" href="#">5000 р.</a>
+					</div>
+				</div>
+				
+				<div class="product">
+					<img class="product-image"
+							 src="media/images/goods-4.png"
+							 alt="Modern organic thai"
+					     width="240" height="240">
+					<div class="product-info">
+						<h3 class="product-info-caption caption">Modern organic thai</h3>
+						<p class="product-info-text">
+							Сайт для ресторана
+							быстрого питания
+						</p>
+						<a class="product-button button" href="#">12000 р.</a>
+					</div>
+				</div>
+				
+				<div class="product">
+					<img class="product-image"
+							 src="media/images/goods-5.png"
+							 alt="Avenue"
+					     width="240" height="240">
+					<div class="product-info">
+						<h3 class="product-info-caption caption">Avenue</h3>
+						<p class="product-info-text">
+							Макет для блога
+							о путешествиях
+						</p>
+						<a class="product-button button" href="#">8000 р.</a>
+					</div>
+				</div>
+				
+				<div class="product">
+					<img class="product-image"
+							 src="media/images/goods-6.png"
+							 alt="Dovetail"
+					     width="240" height="240">
+					<div class="product-info">
+						<h3 class="product-info-caption caption">Dovetail</h3>
+						<p class="product-info-text">
+							Интернет-магазин
+							с галереей товаров
+						</p>
+						<a class="product-button button" href="#">14000 р.</a>
+					</div>
+				</div>
+				
+				<div class="pages">
+					<div class="page page-current">1</div>
+					<div class="page">2</div>
+					<div class="page">3</div>
+					<div class="page page-next">Следующая</div>
+				</div>
+			</section>
+		</main>
+	
+		<section class="map clear layout-center">
+			<div class="address to-left">
+				<h3 class="address-caption caption">Nёrds design studio</h3>
+				<p class="address-text">
+					191186, Санкт-Петербург,<br>
+					ул. Б. Конюшенная, д. 19/8
+				</p>
+				<p class="address-phone">
+					тел. +7 (812) 275-75-75
+				</p>
+				<button class="address-button button">Напишите нам</button>
+			</div>
+			<img class="map-indicator to-right"
+					 src="media/images/map-indicator.png"
+					 alt="Indicator"
+					 width="231" height="190">
+		</section>
+	
+		<footer class="footer">
+			<div class="layout-center">
+				<div class="social layout-center clear">
+					<div class="social-wrapper">
+						<a class="social-network-link" href="#"></a>
+					</div>
+					<div class="social-wrapper">
+						<a class="social-network-link" href="#"></a>
+					</div>
+					<div class="social-wrapper">
+						<a class="social-network-link" href="#"></a>
+					</div>
+				
+					<div class="social-text to-right">
+						<h2 class="social-caption caption">
+							Давайте дружить, это выгодно!
+						</h2>
+						<p class="social-text">
+							Скидка 10% для друзей из социальных сетей.
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

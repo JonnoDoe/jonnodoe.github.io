@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('../../fonts/Montserrat/Regular/Montserrat-Regular.eot?#iefix') format('embedded-opentype'), url('../../fonts/Montserrat/Regular/Montserrat-Regular.woff') format('woff'), url('../../fonts/Montserrat/Regular/Montserrat-Regular.ttf') format('truetype'), url('../../fonts/Montserrat/Regular/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat Medium';
+  src: url('../../fonts/Montserrat/Medium/Montserrat-Medium.eot?#iefix') format('embedded-opentype'), url('../../fonts/Montserrat/Medium/Montserrat-Medium.woff') format('woff'), url('../../fonts/Montserrat/Medium/Montserrat-Medium.ttf') format('truetype'), url('../../fonts/Montserrat/Medium/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('../../fonts/Montserrat/Bold/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), url('../../fonts/Montserrat/Bold/Montserrat-Bold.woff') format('woff'), url('../../fonts/Montserrat/Bold/Montserrat-Bold.ttf') format('truetype'), url('../../fonts/Montserrat/Bold/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat Black';
+  src: url('../../fonts/Montserrat/Black/Montserrat-Black.eot?#iefix') format('embedded-opentype'), url('../../fonts/Montserrat/Black/Montserrat-Black.woff') format('woff'), url('../../fonts/Montserrat/Black/Montserrat-Black.ttf') format('truetype'), url('../../fonts/Montserrat/Black/Montserrat-Black.svg#Montserrat-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fontello';
+  src: url('../../fonts/Symbols/fontello.eot?86377374');
+  src: url('../../fonts/Symbols/fontello.eot?86377374#iefix') format('embedded-opentype'), url('../../fonts/Symbols/fontello.woff2?86377374') format('woff2'), url('../../fonts/Symbols/fontello.woff?86377374') format('woff'), url('../../fonts/Symbols/fontello.ttf?86377374') format('truetype'), url('../../fonts/Symbols/fontello.svg?86377374#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: 0.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-search:before {
+  content: '\e800';
+}
+.icon-feature_2:before {
+  content: '\e801';
+}
+.icon-feature_3:before {
+  content: '\e802';
+}
+.icon-feature_4:before {
+  content: '\e804';
+}
+.icon-download:before {
+  content: '\f02e';
+}
+.icon-phone-squared:before {
+  content: '\f098';
+}
+.icon-mail-square:before {
+  content: '\f0e0';
+}
+.icon-github:before {
+  content: '\f113';
+}
+.icon-feature_1:before {
+  content: '\f1cb';
+}
+.icon-telegram-square:before {
+  content: '\f2c6';
+}
+.icon-github-squared:before {
+  content: '\f300';
+}
+.icon-twitter-squared:before {
+  content: '\f304';
+}
+.icon-vk-square:before {
+  content: '\f30a';
+}
+.icon-instagram-square:before {
+  content: '\f32d';
+}
+.transition {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.service {
+  width: 100%;
+}
+.service__caption-wrp {
+  padding: 5em 0 5em 0;
+  margin-bottom: 1.875em;
+  text-align: center;
+  background-color: #e5f6f5;
+}
+.service__subcaption {
+  position: relative;
+  display: inline-block;
+  font-family: 'Montserrat Black', 'Arial', sans-serif;
+  font-size: 5.6875rem;
+  text-transform: uppercase;
+  color: rgba(32, 30, 32, 0.1);
+}
+.service__subcaption::before {
+  content: 'Send me message';
+  position: absolute;
+  bottom: 18%;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Montserrat Bold', 'Arial', sans-serif;
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  color: #1b181a;
+}
+.service__body {
+  font-family: 'Montserrat Medium', 'Arial', sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.21428571em;
+  text-transform: uppercase;
+  color: #1b181a;
+}
+.service__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+/*# sourceMappingURL=service.css.map */

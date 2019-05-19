@@ -1,0 +1,143 @@
+//Import
+//------------------------------------------------------------------------------
+@import "../../dep/colors";
+
+//Code
+//------------------------------------------------------------------------------
+.filter {
+  width: 30%;
+  margin: 7.9545% 2% 0 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: @light-black;
+
+  .filter-caption {
+    margin-bottom: 9.2592%;
+    font-size: 18px;
+  }
+
+  .price-scroll {
+    width: 88.8888%;
+    height: 29.6296%;
+    margin-bottom: 3.7037%;
+    background-color: @light-gray;
+    border-radius: 5px;
+  }
+
+  .price {
+    width: 88.8888%;
+    margin-bottom: 16.0714%;
+
+    .price-designation {
+      width: 33.3296%;
+      height: 35px;
+      margin-right: 7.4074%;
+      border: none;
+      border-radius: 3px;
+      font-family: "Roboto Medium", "Arial", sans-serif;
+      line-height: 35px;
+      text-align: center;
+      font-weight: bold;
+      background-color: @light-gray;
+      outline: none;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .grid-select {
+    margin-bottom: 16.0714%;
+
+    .grid-list {
+
+      .grid-list-item {
+        margin-bottom: 3%;
+        text-transform: none;
+
+        .icon-circle {
+
+          &:hover {
+            cursor: pointer;
+
+            &::before {
+              color: @dark-gray;
+            }
+          }
+
+          &:active {
+
+            &::before {
+              content: "\25cf";
+            }
+          }
+
+          &::before {
+            font-size: 20px;
+            color: @gray;
+          }
+        }
+      }
+    }
+  }
+
+  .features-select {
+    margin-bottom: 16.0714%;
+
+    .features-list {
+
+      .features-list-item {
+        margin-bottom: 3%;
+        text-transform: none;
+
+        .icon-check-on,
+        .icon-check-off {
+
+          &:hover {
+            cursor: pointer;
+
+            &::before {
+              color: @dark-gray;
+            }
+          }
+
+          &::before {
+            font-size: 20px;
+            color: @gray;
+          }
+        }
+
+        .icon-check-off {
+
+          &:active {
+
+            &::before {
+              content: "\2611";
+            }
+          }
+        }
+
+        .icon-check-on {
+
+          &:active {
+
+            &::before {
+              content: "\2610";
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .filter-button {
+    width: 53.5714%;
+    height: 12.5%;
+    background-color: @gray;
+
+    &:hover {
+      background-color: @dark-gray;
+    }
+  }
+}

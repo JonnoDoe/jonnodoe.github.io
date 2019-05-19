@@ -1,0 +1,49 @@
+//Import
+//------------------------------------------------------------------------------
+@import "../../dep/fonts.css";
+@import "../../dep/colors";
+@import "../../dep/constants";
+@import "../../dep/mixins";
+
+//Code
+//------------------------------------------------------------------------------
+.service {
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  &__item {
+    position: relative;
+    flex-basis: 45%;
+    padding-left: 70/16em;
+    margin-bottom: 50/16em;
+    text-align: left;
+
+    &:nth-of-type(3),
+    &:nth-of-type(4) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    left: 0;
+    top: -5/16em;
+    font-size: 48/16rem;
+  }
+
+  &__caption {
+    margin-bottom: 16/16rem;
+    font-family: 'Montserrat Bold', 'Arial', sans-serif;
+  }
+
+  &__body {
+    width: 80%;
+    font-family: 'Montserrat Regular', 'Arial', sans-serif;
+  }
+}

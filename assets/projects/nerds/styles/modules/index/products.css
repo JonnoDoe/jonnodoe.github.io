@@ -1,0 +1,12 @@
+.products {
+  width: 100%;
+}
+.products .products-item {
+  display: inline-block;
+  width: 27.2727%;
+  margin-right: 9.0909%;
+}
+.products .products-item:last-of-type {
+  margin-right: 0;
+}
+/*# sourceMappingURL=products.css.map */

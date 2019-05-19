@@ -1,0 +1,154 @@
+//Import
+//------------------------------------------------------------------------------
+@import "../dep/fonts.css";
+@import "../dep/colors";
+
+//Code
+//------------------------------------------------------------------------------
+:root {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.body {
+  font-family: 'Montserrat Medium', 'Arial', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: @black;
+  background-color: @white;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.layout-center {
+  max-width: 1140px;
+  margin: 0 auto;
+
+  @media @resp-1200 { max-width: 960px; }
+  @media @resp-1024 { max-width: 768px; }
+  @media @resp-860  {
+    max-width:  100%;
+    padding: 0 40/16em;
+  }
+  @media @resp-620  { max-width: 480px; }
+  @media @resp-550  {
+    max-width:  100%;
+    padding: 0 20/16em;
+  }
+}
+
+.disabled {
+  display: none;
+}
+
+.txt {
+
+  &_clr {
+
+    &_blue { color: @blue; }
+  }
+}
+
+.cl {
+
+  &_html  { color: @brc_html;  }
+  &_css   { color: @brc_css;   }
+  &_js    { color: @brc_js;    }
+  &_less  { color: @brc_less;  }
+  &_jq    { color: @brc_jq;    }
+  &_react { color: @brc_react; }
+  &_redux { color: @brc_redux; }
+  &_ps    { color: @brc_ps;    }
+  &_git   { color: @brc_git;   }
+  &_wp    { color: @brc_wp;    }
+  &_npm   { color: @brc_npm;   }
+  &_bem   { color: @brc_bem;   }
+}
+
+.bgcl {
+
+  &_html  { background-color: @brc_html;  }
+  &_css   { background-color: @brc_css;   }
+  &_js    { background-color: @brc_js;    }
+  &_less  { background-color: @brc_less;  }
+  &_jq    { background-color: @brc_jq;    }
+  &_react { background-color: @brc_react; }
+  &_redux { background-color: @brc_redux; }
+  &_ps    { background-color: @brc_ps;    }
+  &_git   { background-color: @brc_git;   }
+  &_wp    { background-color: @brc_wp;    }
+  &_npm   { background-color: @brc_npm;   }
+  &_bem   { background-color: @brc_bem;   }
+}
+
+.caption-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50/16em;
+
+  &_pos {
+
+    &_l {
+      justify-content: flex-start;
+      align-items: flex-start;
+      text-align: left;
+    }
+
+    &_r {
+      justify-content: flex-end;
+      align-items: flex-end;
+      text-align: right;
+    }
+  }
+
+  &__subcaption {
+    font-size: 32/16rem;
+  }
+
+  &__line {
+    width: 35%;
+    height: 3/16em;
+    margin: 0;
+    border: none;
+    border-radius: 10/16em;
+    background-color: @blue;
+
+    @media @resp-860 {
+      width: 50%;
+    }
+
+    @media @resp-550 {
+      width: 70%;
+    }
+
+    @media @resp-360 {
+      width: 80%;
+    }
+  }
+}
+
+.section {
+  padding: 80/16em 0;
+
+  @media @resp-860 {
+    padding: 60/16em 0;
+  }
+
+  @media @resp-550 {
+    padding: 60/16em 0 0 0;
+  }
+}

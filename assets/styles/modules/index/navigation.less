@@ -1,0 +1,99 @@
+//Import
+//------------------------------------------------------------------------------
+@import "../../dep/fonts.css";
+@import "../../dep/colors";
+@import "../../dep/constants";
+@import "../../dep/mixins";
+
+//Code
+//------------------------------------------------------------------------------
+.nav {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  padding: 15/16em 0;
+  background-color: @black;
+
+  .layout-center,
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__item {
+    position: relative;
+    padding-bottom: 5/16em;
+    margin: 0 50/16em -5/16em 0;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &:hover::after {
+      width: 60%;
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      opacity: 1;
+      transition: all 0.3s ease;
+    }
+
+    &:hover .nav__link {
+      color: @white;
+      transition: all 0.3s ease;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 3/16em;
+      display: block;
+      width: 0;
+      height: 3/16em;
+      border-radius: 10/16em;
+      background-color: @blue;
+      opacity: 0;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: @gray_d2;
+  }
+
+  &-menu {
+    display: none;
+  }
+}
+
+.lng-switch {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 60/16em;
+
+  &__item {
+    font-family: 'Montserrat Bold', 'Arial', sans-serif;
+
+    &_active {
+      color: @blue;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: @gray_d2;
+
+    &:hover {
+      color: @white;
+      transition: all 0.3s ease;
+    }
+  }
+}

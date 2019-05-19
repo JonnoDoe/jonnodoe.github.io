@@ -1,0 +1,167 @@
+//Import
+//------------------------------------------------------------------------------
+@import "../../dep/fonts.css";
+@import "../../dep/colors";
+@import "../../dep/constants";
+@import "../../dep/mixins";
+
+//Code
+//------------------------------------------------------------------------------
+.portfolio {
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__item,
+  &__image,
+  &__wrap {
+    width: 350/16em;
+    height: 250/16em;
+  }
+
+  &__item {
+    position: relative;
+    margin: 20/16em 20/16em 0 0;
+    overflow: hidden;
+
+    &:hover {
+      box-shadow: 3px 3px 10px 0 @gray_d3;
+    }
+
+    &:hover .portfolio__image {
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+      transition: all 0.3s ease;
+    }
+
+    &:hover .portfolio__wrap {
+      opacity: 1;
+      transition: all 0.3s ease;
+    }
+
+    &:nth-of-type(1),
+    &:nth-of-type(2),
+    &:nth-of-type(3) {
+      margin-top: 0;
+    }
+
+    &:nth-of-type(3n) {
+      margin-right: 0;
+    }
+
+    &:nth-of-type(1) .portfolio__image {
+      background-image: url('@{PNG-path}prj_nerds.png');
+    }
+
+    &:nth-of-type(2) .portfolio__image {
+      background-image: url('@{PNG-path}prj_technomart.png');
+    }
+
+    &:nth-of-type(3) .portfolio__image {
+      background-image: url('@{PNG-path}prj_sedona.png');
+    }
+
+    &:nth-of-type(4) .portfolio__image {
+      background-image: url('@{PNG-path}prj_gllacy.png');
+    }
+
+    &:nth-of-type(5) .portfolio__image {
+      background-image: url('@{PNG-path}prj_person.png');
+    }
+  }
+
+  &__image {
+    position: absolute;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    padding: 30/16em 10/16em 10/16em;
+    color: @white;
+    background-color: @black_op70;
+    opacity: 0;
+  }
+
+  &__name {
+    font-family: 'Montserrat Bold', 'Arial', sans-serif;
+    text-transform: uppercase;
+  }
+
+  &__btn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50/16em;
+    height: 50/16em;
+    border-radius: 50%;
+    color: @white;
+    background-color: @gray_d4;
+
+    &:first-of-type {
+      margin-right: 20/16em;
+    }
+
+    &:hover {
+      background-color: @blue;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+
+    &:hover .portfolio__icon {
+      color: @white;
+      transition: all 0.3s ease;
+    }
+
+    &-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__icon {
+    font-size: 24/16rem;
+    color: @gray_d2;
+  }
+
+  &__tech {
+    margin-right: 10/14em;
+    font-size: 14/16rem;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+    }
+  }
+}

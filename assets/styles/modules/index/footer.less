@@ -1,0 +1,66 @@
+//Import
+//------------------------------------------------------------------------------
+@import "../../dep/fonts.css";
+@import "../../dep/colors";
+@import "../../dep/constants";
+@import "../../dep/mixins";
+
+//Code
+//------------------------------------------------------------------------------
+.footer {
+  padding: 30/16em 0;
+  background-color: @black;
+
+  .layout-center {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__body {
+    font-size: 14/16rem;
+    color: @white;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__item {
+    padding: 5/16em;
+    margin-right: 20/16em;
+    border-radius: 50%;
+    background-color: @gray_d4;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &:hover {
+      background-color: @blue;
+      transition: all 0.3s ease;
+    }
+
+    &:hover .footer__icon {
+      color: @white;
+      transition: all 0.3s ease;
+    }
+  }
+
+  &__link {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__icon {
+    font-size: 24/16rem;
+    color: @gray_d2;
+  }
+}

@@ -1,0 +1,52 @@
+//Import
+//------------------------------------------------------------------------------
+@import "../../../dep/fonts.css";
+@import "../../../dep/colors";
+@import "../../../dep/constants";
+@import "../../../dep/mixins";
+
+//Code
+//------------------------------------------------------------------------------
+.service {
+
+  @media @resp-1200 {
+
+    &__body {
+      width: 85%;
+    }
+  }
+
+  @media @resp-1024 {
+
+    &__list {
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__item {
+      flex-basis: 70%;
+
+      &:nth-of-type(3) {
+        margin-bottom: 50/16em;
+      }
+    }
+
+    &__body {
+      width: 100%;
+    }
+  }
+
+  @media @resp-860 {
+
+    &__item {
+      flex-basis: 75%;
+    }
+  }
+
+  @media @resp-620 {
+
+    &__item {
+      flex-basis: 100%;
+    }
+  }
+}

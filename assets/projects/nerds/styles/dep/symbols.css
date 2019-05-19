@@ -1,0 +1,38 @@
+/*Code*/
+/*----------------------------------------------------------------------------*/
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "symbols-nerds";
+  src: url("../../fonts/Sybmols/symbols-nerds.woff")  format("woff"),
+       url("../../fonts/Sybmols/symbols-nerds.woff2") format("woff2");
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.2em;
+  margin-left: 0.2em;
+  font-weight: normal;
+  line-height: 1em;
+  font-family: "symbols-nerds";
+  text-align: center;
+  text-transform: none;
+  text-decoration: inherit;
+  font-style: normal;
+  font-variant: normal;
+  speak: none;
+}
+
+.icon-basket::before { content: "\62"; }
+.icon-facebook::before { content: "\66"; }
+.icon-twitter::before { content: "\74"; }
+.icon-vk::before { content: "\76"; }
+.icon-up-dir::before { content: "\25b2"; }
+.icon-down-dir::before { content: "\25bc"; }
+.icon-circle::before { content: "\25cb"; }
+.icon-circle-dot::before { content: "\25cf"; }
+.icon-check-off::before { content: "\2610"; }
+.icon-check-on::before { content: "\2611"; }
+.icon-instagramm::before { content: "📷"; }

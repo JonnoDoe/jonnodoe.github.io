@@ -1,0 +1,92 @@
+//Import
+//------------------------------------------------------------------------------
+@import "../../../dep/fonts.css";
+@import "../../../dep/colors";
+@import "../../../dep/constants";
+@import "../../../dep/mixins";
+
+//Code
+//------------------------------------------------------------------------------
+.nav {
+
+  @media @resp-860 {
+
+    &__item {
+      margin-right: 25/16em;
+    }
+  }
+
+  @media @resp-620 {
+
+    padding: 5/16em;
+
+    &__list {
+      display: none;
+    }
+
+    &-menu {
+      display: inline-block;
+
+      &__icon {
+        position: relative;
+        font-size: 32/16rem;
+        color: @white;
+
+        &:hover {
+          color: @blue;
+          transition: all 0.3s ease;
+        }
+
+        &:hover .nav-menu__list {
+          width: 100/16em;
+          opacity: 1;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+      }
+
+      &__list {
+        position: absolute;
+        width: 0;
+        background-color: @black;
+        opacity: 0;
+      }
+
+      &__item {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 5/16em;
+        border-bottom: 1px solid @gray_d4;
+
+        &:hover {
+          border-bottom-color: @blue;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+
+        &:hover .nav-menu__link {
+          color: @white;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+
+        &:last-of-type {
+          border-bottom: 0;
+        }
+      }
+
+      &__link {
+        display: block;
+        width: 100%;
+        height: 100%;
+        font-family: 'Montserrat Medium', 'Arial', sans-serif;
+        font-size: 16/16rem;
+        text-decoration: none;
+        color: @gray_d2;
+      }
+    }
+  }
+}

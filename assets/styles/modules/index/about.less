@@ -1,0 +1,76 @@
+//Import
+//------------------------------------------------------------------------------
+@import "../../dep/fonts.css";
+@import "../../dep/colors";
+@import "../../dep/constants";
+@import "../../dep/mixins";
+
+//Code
+//------------------------------------------------------------------------------
+.about {
+
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  &__body {
+    width: 400/16em;
+  }
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 650/16em;
+
+  &__item {
+    width: 200/16em;
+    margin-bottom: 20/16em;
+    text-align: center;
+
+    &:nth-of-type(10),
+    &:nth-of-type(11),
+    &:nth-of-type(12) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__name {
+    font-family: 'Montserrat Bold', 'Arial', sans-serif;
+    font-size: 14/16rem;
+    text-transform: uppercase;
+  }
+
+  &__prg,
+  &__prg_stage {
+    height: 10/16em;
+    border-radius: 5/16em;
+  }
+
+  &__prg {
+    position: relative;
+    margin: 5/16em 0;
+    background-color: @gray_d1;
+
+    &_stage {
+
+      &_10  { width: 10%;  }
+      &_20  { width: 20%;  }
+      &_30  { width: 30%;  }
+      &_40  { width: 40%;  }
+      &_50  { width: 50%;  }
+      &_60  { width: 60%;  }
+      &_70  { width: 70%;  }
+      &_80  { width: 80%;  }
+      &_90  { width: 90%;  }
+      &_100 { width: 100%; }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="cancel" unicode="&#xe800;" d="M-2 781l70 70 932-932-70-69z m933 71l70-70-932-932-70 70z" horiz-adv-x="1000" />
+
+<glyph glyph-name="cart" unicode="&#xe801;" d="M1044 625l-62-452a103 103 0 0 0-95-82h-552a103 103 0 0 0-95 82l-75 522a190 190 0 0 0-6 54h-108a51 51 0 0 0 0 101h203a50 50 0 0 0 5-100h708c56 0 90-58 77-125z m-703-432l-66 457h669l-1-10-60-446a2 2 0 0 1-1-1h-541z m27-152a95 95 0 1 0-96-95 95 95 0 0 0 96 95z m456 0a95 95 0 1 0-95-95 95 95 0 0 0 95 95z" horiz-adv-x="1046" />
+
+<glyph glyph-name="heart" unicode="&#xe803;" d="M574-151s575 285 575 650c0 405-434 469-577 135m4-785s-575 285-575 650c0 405 434 469 577 135" horiz-adv-x="1150" />
+
+<glyph glyph-name="login" unicode="&#xe806;" d="M158 641v51a158 158 0 0 0 158 158h582a158 158 0 0 0 158-158v-683a158 158 0 0 0-158-158h-582a158 158 0 0 0-158 158v52h105v-106h684v790h-684v-104h-105z m-158-423h317v-145l370 279-370 279v-144h-317v-269z" horiz-adv-x="1056" />
+
+<glyph glyph-name="search" unicode="&#xe809;" d="M715 221h-45l-16 16a372 372 0 1 1-40-41l16-15v-46l286-285 85 85z m-343 0a257 257 0 1 0 258 257 257 257 0 0 0-258-257z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

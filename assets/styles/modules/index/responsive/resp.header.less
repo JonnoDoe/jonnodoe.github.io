@@ -1,0 +1,27 @@
+//Import
+//------------------------------------------------------------------------------
+@import "../../../dep/fonts.css";
+@import "../../../dep/colors";
+@import "../../../dep/constants";
+@import "../../../dep/mixins";
+
+//Code
+//------------------------------------------------------------------------------
+.header {
+
+  @media @resp-550 {
+
+    &__caption {
+      font-size: 24/16rem;
+    }
+
+    &__btn {
+      font-size: 14/16rem;
+    }
+
+    .txt_clr_blue::before {
+      content: ' ';
+      display: block;
+    }
+  }
+}
