@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0638ddcf-d10e-41a9-a3c0-4fb8e1a957e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/modules/index/portfolio.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/modules/index/portfolio.less" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,17 +30,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="467">
+              <caret line="383" column="21" lean-forward="true" selection-start-line="383" selection-start-column="21" selection-end-line="383" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_en.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index_en.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_en.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="586">
+              <caret line="328" column="18" lean-forward="true" selection-start-line="328" selection-start-column="18" selection-end-line="328" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -54,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="portfolio.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/styles/modules/index/portfolio.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+            <state relative-caret-position="510">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
             </state>
           </provider>
         </entry>
@@ -130,10 +131,10 @@
         <option value="$PROJECT_DIR$/assets/index.html" />
         <option value="$PROJECT_DIR$/assets/index_en.html" />
         <option value="$PROJECT_DIR$/assets/projects/trash" />
-        <option value="$PROJECT_DIR$/assets/styles/modules/index/portfolio.less" />
-        <option value="$PROJECT_DIR$/assets/styles/modules/index/portfolio.less" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index_en.html" />
+        <option value="$PROJECT_DIR$/assets/styles/modules/index/portfolio.less" />
+        <option value="$PROJECT_DIR$/assets/styles/modules/index/portfolio.less" />
       </list>
     </option>
   </component>
@@ -165,6 +166,32 @@
             <path>
               <item name="jonnodoe.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="jonnodoe.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jonnodoe.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jonnodoe.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jonnodoe.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jonnodoe.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jonnodoe.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jonnodoe.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jonnodoe.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jonnodoe.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -212,7 +239,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4734000" />
+    <option name="totallyTimeSpent" value="4490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -541,24 +568,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/modules/index/portfolio.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="467">
+          <caret line="383" column="21" lean-forward="true" selection-start-line="383" selection-start-column="21" selection-end-line="383" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index_en.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="586">
+          <caret line="328" column="18" lean-forward="true" selection-start-line="328" selection-start-column="18" selection-end-line="328" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/modules/index/portfolio.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
